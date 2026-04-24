@@ -1,4 +1,5 @@
 import { portfolioData } from "@/data/portfolio";
+
 import { SectionHeading } from "./section-heading";
 
 export function Skills() {

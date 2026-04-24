@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes.portfolio import router as portfolio_router
 from app.core.config import settings
 
-
 app = FastAPI(title=settings.app_name, version=settings.app_version)
 
 app.add_middleware(
@@ -15,7 +14,6 @@ app.add_middleware(
 )
 
 app.include_router(portfolio_router)
-
 
 @app.get("/")
 def root():
