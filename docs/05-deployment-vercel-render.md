@@ -3,6 +3,8 @@
 
 Vercel's full-stack FastAPI guidance recommends deploying frontend and backend as **two separate projects** and wiring them together using environment variables like `API_URL` and `SITE_URL`.
 
+
+
 ## Deploy FastAPI backend on Render
 
 ### Render settings
