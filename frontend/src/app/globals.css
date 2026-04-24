@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(244, 114, 182, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(192, 132, 252, 0.18), transparent 24%),
+    linear-gradient(180deg, #0b0911 0%, #120d1f 50%, #0b0911 100%);
+}
+
+::selection {
+  background: rgba(244, 114, 182, 0.35);
+  color: #ffffff;
+}
+
+.glass-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.22);
+  backdrop-filter: blur(16px);
+}
+
+.section-shell {
+  border-radius: 28px;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-shell {
+    padding: 2rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
